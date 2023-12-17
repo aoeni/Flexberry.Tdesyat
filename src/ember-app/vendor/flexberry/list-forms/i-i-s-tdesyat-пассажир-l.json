@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-tdesyat-пассажир-e",
+  "editForm": "i-i-s-tdesyat-пассажир-e",
+  "external": false,
+  "caption": "Пассажир",
+  "name": "IISTdesyatПассажирL",
+  "className": "ПассажирL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-tdesyat-пассажир",
+      "modelProjection": "ПассажирL"
+    }
+  ]
+}

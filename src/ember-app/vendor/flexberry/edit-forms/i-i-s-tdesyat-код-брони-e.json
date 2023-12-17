@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Код бронирования",
+  "name": "IISTdesyatКодБрониE",
+  "className": "КодБрониE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "код-бронирования",
+      "modelProjection": "КодБрониE"
+    }
+  ]
+}

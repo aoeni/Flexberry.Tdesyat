@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tdesyat.Objects", "Objects/Tdesyat.Objects.csproj", "{23DEAD8A-46EB-4CB0-A306-A0A378D29D23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tdesyat.ODataBackend", "ODataBackend/Tdesyat.ODataBackend.csproj", "{4ABDF8A6-535A-4B8A-9E0F-F4F0BA20863A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23DEAD8A-46EB-4CB0-A306-A0A378D29D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23DEAD8A-46EB-4CB0-A306-A0A378D29D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23DEAD8A-46EB-4CB0-A306-A0A378D29D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23DEAD8A-46EB-4CB0-A306-A0A378D29D23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ABDF8A6-535A-4B8A-9E0F-F4F0BA20863A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ABDF8A6-535A-4B8A-9E0F-F4F0BA20863A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ABDF8A6-535A-4B8A-9E0F-F4F0BA20863A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ABDF8A6-535A-4B8A-9E0F-F4F0BA20863A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

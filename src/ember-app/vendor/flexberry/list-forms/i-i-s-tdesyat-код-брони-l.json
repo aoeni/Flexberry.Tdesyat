@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-tdesyat-код-брони-e",
+  "editForm": "i-i-s-tdesyat-код-брони-e",
+  "external": false,
+  "caption": "Код бронирования",
+  "name": "IISTdesyatКодБрониL",
+  "className": "КодБрониL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "код-бронирования",
+      "modelProjection": "КодБрониL"
+    }
+  ]
+}

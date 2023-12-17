@@ -1,0 +1,109 @@
+﻿{
+  "name": "Информация бронирования",
+  "modelName": "информация-бронирования",
+  "className": "ИнфБронь",
+  "nameSpace": "",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "пассажир",
+      "relatedTo": "i-i-s-tdesyat-пассажир",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "рейс",
+      "relatedTo": "i-i-s-tdesyat-рейс",
+      "inverse": "инфБронь"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ИнфБроньE",
+      "modelName": "информация-бронирования",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": "ФИО",
+          "lookupValueField": "фИО",
+          "relationName": "Пассажир",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "Пассажир.Код бронирования",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "код",
+                  "caption": "Код бронирования",
+                  "hidden": false,
+                  "index": 2
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "кодБрони",
+              "relatedTo": "код-бронирования",
+              "inverse": null
+            },
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "Пассажир.МестоНаРейс",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "место",
+                  "caption": "Место",
+                  "hidden": false,
+                  "index": 3
+                },
+                {
+                  "name": "класс",
+                  "caption": "Класс",
+                  "hidden": false,
+                  "index": 4
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "местоНаРейс",
+              "relatedTo": "i-i-s-tdesyat-место-на-рейс",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "фИО",
+              "caption": "ФИО",
+              "hidden": true,
+              "index": 1
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Пассажир",
+          "name": "пассажир",
+          "relatedTo": "i-i-s-tdesyat-пассажир",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
