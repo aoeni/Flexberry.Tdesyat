@@ -2,5 +2,5 @@ import EditFormRoute from 'ember-flexberry/routes/edit-form';
 
 export default EditFormRoute.extend({
   modelProjection: 'ПосадТалонE',
-  modelName: 'посадочный-талон'
+  modelName: 'i-i-s-tdesyat-посад-талон'
 });

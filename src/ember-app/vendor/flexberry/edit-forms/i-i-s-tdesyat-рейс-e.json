@@ -6,7 +6,7 @@
       "required": true,
       "relationName": "ИнфБронь.Пассажир",
       "projection": "ПассажирL",
-      "detailModelName": "информация-бронирования"
+      "detailModelName": "i-i-s-tdesyat-инф-бронь"
     }
   ],
   "external": false,

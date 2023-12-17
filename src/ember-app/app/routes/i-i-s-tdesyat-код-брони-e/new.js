@@ -2,6 +2,6 @@ import EditFormNewRoute from 'ember-flexberry/routes/edit-form-new';
 
 export default EditFormNewRoute.extend({
   modelProjection: 'КодБрониE',
-  modelName: 'код-бронирования',
+  modelName: 'i-i-s-tdesyat-код-брони',
   templateName: 'i-i-s-tdesyat-код-брони-e',
 });

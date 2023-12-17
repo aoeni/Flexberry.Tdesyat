@@ -7,7 +7,7 @@
   "attrs": [],
   "projections": [
     {
-      "modelName": "код-бронирования",
+      "modelName": "i-i-s-tdesyat-код-брони",
       "modelProjection": "КодБрониE"
     }
   ]

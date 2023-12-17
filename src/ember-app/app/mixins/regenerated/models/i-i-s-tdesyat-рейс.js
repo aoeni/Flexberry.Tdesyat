@@ -12,7 +12,7 @@ export let Model = Mixin.create({
   куда: DS.attr('string'),
   начПосад: DS.attr('string'),
   откуда: DS.attr('string'),
-  инфБронь: DS.hasMany('информация-бронирования', { inverse: 'рейс', async: false })
+  инфБронь: DS.hasMany('i-i-s-tdesyat-инф-бронь', { inverse: 'рейс', async: false })
 });
 
 export let ValidationRules = {
@@ -77,10 +77,10 @@ export let defineProjections = function (modelClass) {
     начПосад: attr('Начало посадки', { index: 4 }),
     конецПосад: attr('Конец посадки', { index: 5 }),
     выход: attr('Выход', { index: 6 }),
-    инфБронь: hasMany('информация-бронирования', 'Информация бронирования', {
+    инфБронь: hasMany('i-i-s-tdesyat-инф-бронь', 'Информация бронирования', {
       пассажир: belongsTo('i-i-s-tdesyat-пассажир', 'Пассажир', {
         фИО: attr('ФИО', { index: 1, hidden: true }),
-        кодБрони: belongsTo('код-бронирования', '', {
+        кодБрони: belongsTo('i-i-s-tdesyat-код-брони', '', {
           код: attr('Код бронирования', { index: 2 })
         }, { index: -1, hidden: true }),
         местоНаРейс: belongsTo('i-i-s-tdesyat-место-на-рейс', '', {

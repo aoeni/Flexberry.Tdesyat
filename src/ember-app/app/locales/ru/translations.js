@@ -11,8 +11,11 @@ import IISTdesyatМестоНаРейсEForm from './forms/i-i-s-tdesyat-мес�
 import IISTdesyatПассажирEForm from './forms/i-i-s-tdesyat-пассажир-e';
 import IISTdesyatПосадТалонEForm from './forms/i-i-s-tdesyat-посад-талон-e';
 import IISTdesyatРейсEForm from './forms/i-i-s-tdesyat-рейс-e';
+import IISTdesyatИнфБроньModel from './models/i-i-s-tdesyat-инф-бронь';
+import IISTdesyatКодБрониModel from './models/i-i-s-tdesyat-код-брони';
 import IISTdesyatМестоНаРейсModel from './models/i-i-s-tdesyat-место-на-рейс';
 import IISTdesyatПассажирModel from './models/i-i-s-tdesyat-пассажир';
+import IISTdesyatПосадТалонModel from './models/i-i-s-tdesyat-посад-талон';
 import IISTdesyatРейсModel from './models/i-i-s-tdesyat-рейс';
 import Информация бронированияModel from './models/информация-бронирования';
 import Код бронированияModel from './models/код-бронирования';
@@ -23,8 +26,11 @@ $.extend(true, translations, EmberFlexberryTranslations);
 
 $.extend(true, translations, {
   models: {
+    'i-i-s-tdesyat-инф-бронь': IISTdesyatИнфБроньModel,
+    'i-i-s-tdesyat-код-брони': IISTdesyatКодБрониModel,
     'i-i-s-tdesyat-место-на-рейс': IISTdesyatМестоНаРейсModel,
     'i-i-s-tdesyat-пассажир': IISTdesyatПассажирModel,
+    'i-i-s-tdesyat-посад-талон': IISTdesyatПосадТалонModel,
     'i-i-s-tdesyat-рейс': IISTdesyatРейсModel,
     'информация-бронирования': Информация бронированияModel,
     'код-бронирования': Код бронированияModel,

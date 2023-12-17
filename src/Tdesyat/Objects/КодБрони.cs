@@ -26,7 +26,6 @@ namespace IIS.Tdesyat
     // *** Start programmer edit section *** (КодБрони CustomAttributes)
 
     // *** End programmer edit section *** (КодБрони CustomAttributes)
-    [PublishName("Код бронирования")]
     [AutoAltered()]
     [Caption("Код бронирования")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]

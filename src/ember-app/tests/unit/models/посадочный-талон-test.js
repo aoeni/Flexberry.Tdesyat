@@ -3,8 +3,11 @@ import { moduleForModel, test } from 'ember-qunit';
 moduleForModel('посадочный-талон', 'Unit | Model | посадочный-талон', {
   // Specify the other units that are required for this test.
   needs: [
+    'model:i-i-s-tdesyat-инф-бронь',
+    'model:i-i-s-tdesyat-код-брони',
     'model:i-i-s-tdesyat-место-на-рейс',
     'model:i-i-s-tdesyat-пассажир',
+    'model:i-i-s-tdesyat-посад-талон',
     'model:i-i-s-tdesyat-рейс',
     'model:информация-бронирования',
     'model:код-бронирования',

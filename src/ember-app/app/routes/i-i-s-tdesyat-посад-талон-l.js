@@ -15,9 +15,9 @@ export default ListFormRoute.extend({
 
     @property modelName
     @type String
-    @default 'посадочный-талон'
+    @default 'i-i-s-tdesyat-посад-талон'
   */
-  modelName: 'посадочный-талон',
+  modelName: 'i-i-s-tdesyat-посад-талон',
 
   /**
     Defined user settings developer.

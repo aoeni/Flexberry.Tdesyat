@@ -26,7 +26,6 @@ namespace IIS.Tdesyat
     // *** Start programmer edit section *** (ПосадТалон CustomAttributes)
 
     // *** End programmer edit section *** (ПосадТалон CustomAttributes)
-    [PublishName("Посадочный талон")]
     [AutoAltered()]
     [Caption("Посадочный талон")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]

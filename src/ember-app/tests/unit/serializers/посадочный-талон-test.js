@@ -11,8 +11,11 @@ moduleForModel('посадочный-талон', 'Unit | Serializer | поса�
 
     'transform:i-i-s-tdesyat-класс-билета',
 
+    'model:i-i-s-tdesyat-инф-бронь',
+    'model:i-i-s-tdesyat-код-брони',
     'model:i-i-s-tdesyat-место-на-рейс',
     'model:i-i-s-tdesyat-пассажир',
+    'model:i-i-s-tdesyat-посад-талон',
     'model:i-i-s-tdesyat-рейс',
     'model:информация-бронирования',
     'model:код-бронирования',

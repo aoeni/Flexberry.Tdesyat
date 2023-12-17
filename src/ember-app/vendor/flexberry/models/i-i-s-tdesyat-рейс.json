@@ -74,7 +74,7 @@
   "hasMany": [
     {
       "name": "инфБронь",
-      "relatedTo": "информация-бронирования",
+      "relatedTo": "i-i-s-tdesyat-инф-бронь",
       "inverse": "рейс"
     }
   ],
@@ -132,7 +132,7 @@
           "projectionName": "ИнфБроньE",
           "caption": "Информация бронирования",
           "name": "инфБронь",
-          "relatedTo": "информация-бронирования",
+          "relatedTo": "i-i-s-tdesyat-инф-бронь",
           "inverse": null
         }
       ]

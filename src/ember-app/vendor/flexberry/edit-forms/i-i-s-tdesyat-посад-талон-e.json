@@ -24,7 +24,7 @@
   "attrs": [],
   "projections": [
     {
-      "modelName": "посадочный-талон",
+      "modelName": "i-i-s-tdesyat-посад-талон",
       "modelProjection": "ПосадТалонE"
     }
   ]

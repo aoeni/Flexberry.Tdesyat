@@ -15,9 +15,9 @@ export default ListFormRoute.extend({
 
     @property modelName
     @type String
-    @default 'код-бронирования'
+    @default 'i-i-s-tdesyat-код-брони'
   */
-  modelName: 'код-бронирования',
+  modelName: 'i-i-s-tdesyat-код-брони',
 
   /**
     Defined user settings developer.

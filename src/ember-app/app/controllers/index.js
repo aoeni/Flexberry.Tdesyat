@@ -22,30 +22,31 @@ export default Controller.extend({
             link: 'i-i-s-tdesyat-посад-талон-l',
             caption: i18n.t('forms.application.sitemap.tdesyat.i-i-s-tdesyat-посад-талон-l.caption'),
             title: i18n.t('forms.application.sitemap.tdesyat.i-i-s-tdesyat-посад-талон-l.title'),
-            icon: 'tasks',
+            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-tdesyat-пассажир-l',
             caption: i18n.t('forms.application.sitemap.tdesyat.i-i-s-tdesyat-пассажир-l.caption'),
             title: i18n.t('forms.application.sitemap.tdesyat.i-i-s-tdesyat-пассажир-l.title'),
-            icon: 'tasks',
+            icon: 'book',
             children: null
           }, {
             link: 'i-i-s-tdesyat-место-на-рейс-l',
             caption: i18n.t('forms.application.sitemap.tdesyat.i-i-s-tdesyat-место-на-рейс-l.caption'),
             title: i18n.t('forms.application.sitemap.tdesyat.i-i-s-tdesyat-место-на-рейс-l.title'),
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-tdesyat-код-брони-l',
             caption: i18n.t('forms.application.sitemap.tdesyat.i-i-s-tdesyat-код-брони-l.caption'),
             title: i18n.t('forms.application.sitemap.tdesyat.i-i-s-tdesyat-код-брони-l.title'),
-            icon: 'tasks',
+            icon: 'suitcase',
             children: null
           }, {
             link: 'i-i-s-tdesyat-рейс-l',
             caption: i18n.t('forms.application.sitemap.tdesyat.i-i-s-tdesyat-рейс-l.caption'),
             title: i18n.t('forms.application.sitemap.tdesyat.i-i-s-tdesyat-рейс-l.title'),
-            icon: 'briefcase',
+            icon: 'chart bar',
             children: null
           }]
         }

@@ -21,7 +21,7 @@
       "polymorphic": false,
       "presence": true,
       "name": "кодБрони",
-      "relatedTo": "код-бронирования",
+      "relatedTo": "i-i-s-tdesyat-код-брони",
       "inverse": null
     },
     {
@@ -70,7 +70,7 @@
         {
           "lookupValue": "Код",
           "lookupValueField": "код",
-          "relationName": "Код бронирования",
+          "relationName": "КодБрони",
           "belongsTo": [],
           "hidden": false,
           "attrs": [
@@ -85,7 +85,7 @@
           "type": "standard",
           "caption": "Код бронирования",
           "name": "кодБрони",
-          "relatedTo": "код-бронирования",
+          "relatedTo": "i-i-s-tdesyat-код-брони",
           "inverse": null
         }
       ],
@@ -127,7 +127,7 @@
         {
           "lookupValue": null,
           "lookupValueField": null,
-          "relationName": "Код бронирования",
+          "relationName": "КодБрони",
           "belongsTo": [],
           "hidden": false,
           "attrs": [
@@ -142,7 +142,7 @@
           "type": "default",
           "caption": "Код",
           "name": "кодБрони",
-          "relatedTo": "код-бронирования",
+          "relatedTo": "i-i-s-tdesyat-код-брони",
           "inverse": null
         }
       ],
